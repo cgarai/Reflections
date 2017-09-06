@@ -1,0 +1,35 @@
+This is  afile with reflections on using Git
+
+
+git commands learned:
+
+git clone url    ... get the repository
+git log          ... List the change history
+git diff commit1 commit2  ... diff two commits
+git checkout     ...      Revert to the checked out commit
+
+
+
+
+So far we have touched on  fc  and diff
+
+I used  diff.  I'm not sure how many lines it decides to display around differences
+
+-u NUM shows NUM lines before and after differences.  NUM = 3 default
+
+Multi file commits
+
+So you can track how all files change between commits
+
+git diff and git log (stat)
+
+I can search the git log using /????  to find ????
+Use u and d to move up and down a half screen
+
+git diff allows comparison of commit numbers.  In git bash select and right click
+to copy and then right-click to paste
+
+
+
+Git checkout commit#  immediately reverts the files in the working directory
+to the files that are in that commit.  
