@@ -1,0 +1,9 @@
+git init   // configures initial ,git repository without any commits
+
+git add	 filename  // stages files to be commited
+
+The staging area allows one to look at all the files that are going to be commited
+from the working directory.
+
+     Working Directory  >> Contains all the files in the current workspace
+     Staging Area	>> Contains files in the workspace that will be commited
