@@ -7,3 +7,5 @@ from the working directory.
 
      Working Directory  >> Contains all the files in the current workspace
      Staging Area	>> Contains files in the workspace that will be commited
+
+git diff   // What does it do with no argument?
