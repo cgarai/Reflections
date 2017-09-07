@@ -2,10 +2,16 @@ git init   // configures initial ,git repository without any commits
 
 git add	 filename  // stages files to be commited
 
-The staging area allows one to look at all the files that are going to be commited
+The Staging area allows one to look at all the files that are going to be commited
 from the working directory.
 
      Working Directory  >> Contains all the files in the current workspace
      Staging Area	>> Contains files in the workspace that will be commited
 
-git diff   // What does it do with no argument?
+git diff   // Compares working directory with Staging area.  If Staging area
+    	   been commited, then compares working dir with commit.  This is
+	   because after a commit the Staging Area and Commit are the same
+
+git diff --staged // Compares Staging Area with commit
+
+git reset --hard  // removes all changes in working directory.
