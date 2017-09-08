@@ -14,4 +14,35 @@ git diff   // Compares working directory with Staging area.  If Staging area
 
 git diff --staged // Compares Staging Area with commit
 
+git show commit   // shows diff from commit and it's parent.
+
 git reset --hard  // removes all changes in working directory.
+
+Staging area can be used to compare proposed changes with existing.
+This will help in making one logical change per commit.
+
+Branching:
+
+git branch //  will list branches and indicate current branch
+
+git branch B-Name   // creates the new branch B-Name
+
+Any commits made to a branch below the TIP (last commit of a branch) are isolated from the branch.  A new branch can be made using
+
+git branch new-branch-name
+
+git checkout -b new-branch-name // this will create the new branch and check it out
+
+
+Merging:
+
+git merge branch1 branch2   // If branch1 is ommited current branch is merged
+
+if merge fails, either
+
+git merge --abort
+
+or fix and then commit.  Commit will finish the merge
+
+
+
