@@ -6,6 +6,8 @@ git commands learned:
 git clone url    ... get the repository
 git log          ... List the change history
 git diff commit1 commit2  ... diff two commits
+git diff -u NUM  f1 f2,  shows NUM lines of context
+
 git checkout     ...      Revert to the checked out commit
 
 
